@@ -5,7 +5,8 @@ def my_select(array)
   while i < array.length
     if array[i]==true
       selection << yield(array[i])
-      i+=1
+    end
+    i+=1
     end
   end
   selection
