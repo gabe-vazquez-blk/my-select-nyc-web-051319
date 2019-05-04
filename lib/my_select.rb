@@ -3,8 +3,8 @@ def my_select(array)
   i = 0
   selection = []
   while i < array.length
-  yield(array[i])
-    if array[i]==true
+    update = yield(array[i])
+    if ==true
       selection << 
     end
     i+=1
